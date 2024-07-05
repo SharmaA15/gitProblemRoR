@@ -1,6 +1,6 @@
 # gitProblemRoR
 
-In config/routes.rb
+In config/routes.rb 
 
 Rails.application.routes.draw do
   get '/repositories/:owner/:repository/commits/:oid', to: 'commits#show'
